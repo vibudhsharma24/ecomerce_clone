@@ -1,0 +1,96 @@
+# 📸 IMAGE GUIDE — Café Joyeux Clone
+# =====================================
+# All images go inside the `images/` folder
+# (same level as index.html, style.css, script.js)
+#
+# Folder structure:
+#
+# cafe-joyeux-clone/
+# ├── index.html
+# ├── style.css
+# ├── script.js
+# ├── images/          ← PUT ALL IMAGES HERE
+# │   ├── logo-cafe-joyeux-yellow.png
+# │   ├── hero-porto.jpg
+# │   ├── mapa-cafe-joyeux-portugal.jpg
+# │   ├── product-radiante.jpg
+# │   ├── product-forte.jpg
+# │   ├── product-extraordinario.jpg
+# │   ├── icon-mesa.png
+# │   ├── icon-takeaway.png
+# │   ├── icon-catering.png
+# │   ├── icon-cake.png
+# │   ├── takeaway-cascais.jpg
+# │   ├── catering.jpg
+# │   ├── btob.jpg
+# │   ├── engagement-a.png
+# │   ├── slider-grao.jpg
+# │   ├── slider-capsulas-1.jpg
+# │   ├── slider-capsulas-2.jpg
+# │   ├── round-stamp.png
+# │   └── servido-com-o-coracao.png
+#
+# =====================================
+# SOURCE URLS (direct from live site)
+# Download each one and save with the filename shown
+# =====================================
+
+FILENAME                          SOURCE URL
+-------------------------------   -----------------------------------------------------------
+logo-cafe-joyeux-yellow.png       https://pt.cafejoyeux.com/wp-content/uploads/2025/11/Logo-Cafe-Joyeux-Yellow.png
+mapa-cafe-joyeux-portugal.jpg     https://pt.cafejoyeux.com/wp-content/uploads/2025/07/Mapa-Cafe-Joyeux-Portugal.jpg
+product-radiante.jpg              https://pt.cafejoyeux.com/wp-content/uploads/2025/02/Radiante-x-90-9 (find on products page or loja)
+product-forte.jpg                 https://pt.cafejoyeux.com/wp-content/uploads/2025/02/Forte-x-90-9 (find on products page or loja)
+product-extraordinario.jpg        https://pt.cafejoyeux.com/wp-content/uploads/2025/04/Extraordinario-x-40-4 (find on products page)
+icon-mesa.png                     https://pt.cafejoyeux.com/wp-content/uploads/2023/03/0a89d4f2336c2722d26190b042ec4cbdd4c78937_surplace.png
+icon-takeaway.png                 https://pt.cafejoyeux.com/wp-content/uploads/2023/03/441c8f62c38ba492f843f207185e0d233f3e9342_aemporter.png
+icon-catering.png                 https://pt.cafejoyeux.com/wp-content/uploads/2023/03/b3d74a9159c772c7be44f54f657763f07f3f076a_livraisonentreprise.png
+icon-cake.png                     https://pt.cafejoyeux.com/wp-content/uploads/2023/03/cake.png
+takeaway-cascais.jpg              https://pt.cafejoyeux.com/wp-content/uploads/2023/03/image_2023-03-17_175436226.png
+catering.jpg                      (find at cafejoyeux.com — catering section large photo)
+btob.jpg                          https://pt.cafejoyeux.com/wp-content/uploads/2023/03/joyeux-btob-1.png
+engagement-a.png                  https://pt.cafejoyeux.com/wp-content/uploads/2023/03/WEEBY_ENGAGEMENTS_IMAGE_A.png
+round-stamp.png                   https://pt.cafejoyeux.com/wp-content/uploads/2022/10/round.png
+servido-com-o-coracao.png         https://pt.cafejoyeux.com/wp-content/uploads/2022/10/JOYEUX_Servido_Com_O_Coracao_NOIR.png
+
+# HERO + COFFEE SLIDER IMAGES
+# These are loaded by the Revolution Slider plugin (JavaScript-rendered),
+# so they don't appear in the page source directly.
+# To get them:
+#   1. Open https://pt.cafejoyeux.com/ in Chrome
+#   2. Open DevTools → Network tab → filter by "img"
+#   3. Reload the page and look for large JPGs
+#   4. Download and save as:
+
+hero-porto.jpg                    (the main Porto hero background — large full-width photo)
+slider-grao.jpg                   (coffee beans "Em grão" slide background)
+slider-capsulas-1.jpg             (first capsules slide background)
+slider-capsulas-2.jpg             (second capsules slide background)
+
+# =====================================
+# HOW TO DOWNLOAD (quick method)
+# =====================================
+# Option A — Browser:
+#   Right-click any image on the live site → "Save image as..."
+#   Rename it to the filename in the left column above
+#   Place it in the images/ folder
+
+# Option B — Terminal (curl):
+#   mkdir images
+#   curl -o images/logo-cafe-joyeux-yellow.png "https://pt.cafejoyeux.com/wp-content/uploads/2025/11/Logo-Cafe-Joyeux-Yellow.png"
+#   curl -o images/mapa-cafe-joyeux-portugal.jpg "https://pt.cafejoyeux.com/wp-content/uploads/2025/07/Mapa-Cafe-Joyeux-Portugal.jpg"
+#   curl -o images/icon-mesa.png "https://pt.cafejoyeux.com/wp-content/uploads/2023/03/0a89d4f2336c2722d26190b042ec4cbdd4c78937_surplace.png"
+#   curl -o images/icon-takeaway.png "https://pt.cafejoyeux.com/wp-content/uploads/2023/03/441c8f62c38ba492f843f207185e0d233f3e9342_aemporter.png"
+#   curl -o images/icon-catering.png "https://pt.cafejoyeux.com/wp-content/uploads/2023/03/b3d74a9159c772c7be44f54f657763f07f3f076a_livraisonentreprise.png"
+#   curl -o images/icon-cake.png "https://pt.cafejoyeux.com/wp-content/uploads/2023/03/cake.png"
+#   curl -o images/takeaway-cascais.jpg "https://pt.cafejoyeux.com/wp-content/uploads/2023/03/image_2023-03-17_175436226.png"
+#   curl -o images/btob.jpg "https://pt.cafejoyeux.com/wp-content/uploads/2023/03/joyeux-btob-1.png"
+#   curl -o images/engagement-a.png "https://pt.cafejoyeux.com/wp-content/uploads/2023/03/WEEBY_ENGAGEMENTS_IMAGE_A.png"
+#   curl -o images/round-stamp.png "https://pt.cafejoyeux.com/wp-content/uploads/2022/10/round.png"
+#   curl -o images/servido-com-o-coracao.png "https://pt.cafejoyeux.com/wp-content/uploads/2022/10/JOYEUX_Servido_Com_O_Coracao_NOIR.png"
+
+# =====================================
+# NOTE: The site still looks great without images because
+# placeholders and background colors are applied via CSS.
+# Add images progressively as you find them.
+# =====================================
